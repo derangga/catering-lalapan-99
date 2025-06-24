@@ -88,7 +88,7 @@ const MapSection: React.FC = () => {
                     Kontak Cepat
                   </h3>
                   <button
-                    onClick={() => window.open("https://wa.me/6281234567890")}
+                    onClick={() => window.open("https://wa.me/6281246539967")}
                     className="text-green-600 dark:text-dark-success hover:text-green-700 dark:hover:text-green-500 font-medium transition-colors duration-200"
                   >
                     📱 WhatsApp: +62 812-4653-9967

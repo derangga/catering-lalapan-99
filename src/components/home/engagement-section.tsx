@@ -77,7 +77,7 @@ const EngagementSection: React.FC = () => {
               onClick={() => {
                 const message =
                   "Halo, saya ingin informasi tentang layanan catering untuk acara saya.";
-                const whatsappUrl = `https://wa.me/6281234567890?text=${encodeURIComponent(
+                const whatsappUrl = `https://wa.me/6281246539967?text=${encodeURIComponent(
                   message
                 )}`;
                 window.open(whatsappUrl, "_blank");

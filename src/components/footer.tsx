@@ -93,13 +93,13 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex gap-6">
               <button
-                onClick={() => window.open("https://wa.me/6281234567890")}
+                onClick={() => window.open("https://wa.me/6281246539967")}
                 className="text-green-400 dark:text-dark-success hover:text-green-300 dark:hover:text-green-500 transition-colors duration-200"
               >
                 WhatsApp
               </button>
               <button
-                onClick={() => window.open("tel:+6281234567890")}
+                onClick={() => window.open("tel:+6281246539967")}
                 className="text-blue-400 dark:text-blue-300 hover:text-blue-300 dark:hover:text-blue-400 transition-colors duration-200"
               >
                 Telepon

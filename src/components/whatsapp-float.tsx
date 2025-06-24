@@ -7,7 +7,7 @@ const WhatsAppFloat: React.FC = () => {
   const handleWhatsAppClick = () => {
     const message =
       "Halo, saya ingin bertanya tentang menu dan harga di Warung Lalapan Barokah.";
-    const whatsappUrl = `https://wa.me/6281234567890?text=${encodeURIComponent(
+    const whatsappUrl = `https://wa.me/6281246539967?text=${encodeURIComponent(
       message
     )}`;
     window.open(whatsappUrl, "_blank");

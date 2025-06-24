@@ -29,7 +29,7 @@ const FoodDetail: React.FC = () => {
 
   const handleWhatsAppOrder = () => {
     const message = `Halo, saya ingin memesan ${item.name}. Apakah masih tersedia?`;
-    const whatsappUrl = `https://wa.me/6281234567890?text=${encodeURIComponent(
+    const whatsappUrl = `https://wa.me/6281246539967?text=${encodeURIComponent(
       message
     )}`;
     window.open(whatsappUrl, "_blank");
