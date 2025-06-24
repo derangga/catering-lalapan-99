@@ -87,14 +87,12 @@ const Header: React.FC = () => {
                 <Moon size={20} className="text-gray-600" />
               )}
             </Button>
-            <Button
-              size="icon"
-              variant="ghost"
-              className="p-2 text-gray-700 dark:text-dark-text"
+            <button
+              className="p-2 text-foreground"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-            </Button>
+            </button>
           </div>
         </div>
 
