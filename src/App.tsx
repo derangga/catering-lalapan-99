@@ -3,11 +3,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import WhatsAppFloat from "./components/whatsapp-float";
 import Home from "./pages/home";
 import FoodDetail from "./pages/food-detail";
+import ScrollTop from "./components/scroll-top";
 
 function App() {
   return (
     <ThemeProvider>
       <Router>
+        <ScrollTop />
         <div className="min-h-screen bg-primary transition-colors duration-300">
           <Routes>
             <Route path="/" element={<Home />} />

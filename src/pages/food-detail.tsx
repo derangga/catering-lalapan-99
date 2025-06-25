@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { ArrowLeft, Phone } from "lucide-react";
 import { menuItems } from "@/data/menu-data";
@@ -8,6 +8,10 @@ import Footer from "@/components/footer";
 const FoodDetail: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const item = menuItems.find((item) => item.slug === slug);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!item) {
     return (
